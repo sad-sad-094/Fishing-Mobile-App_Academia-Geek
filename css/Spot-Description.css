@@ -1,0 +1,87 @@
+/* Author: Sebastian Aguirre Duque
+E-mail: sadw621@gmail.com */
+
+
+.background {
+  background-image: url('../images/Spot-Description3.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.blue-fish-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.blue-fish-card {
+  opacity: 0.6;
+  position: absolute;
+  z-index: 0;
+  margin-left: 5px;
+}
+
+.fish-card {
+  position: relative;
+  z-index: 1;
+}
+
+.red-fish-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 60px;
+}
+
+.red-fish-card {
+  opacity: 0.6;
+  position: absolute;
+  z-index: 0;
+  margin-left: 90px;
+}
+
+.spot-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 360px;
+  height: 190px;
+  margin-top: 60px;
+}
+
+.spot-info-card {
+  opacity: 0.45;
+  position: absolute;
+  z-index: 0;
+  width: 300px;
+  height: 170px;
+}
+
+.spot-info-container {
+  height: 118px;
+  gap: 25px
+}
+
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.spot-name-card {
+  opacity: 0.50;
+  position: absolute;
+  z-index: 0;
+  width: 285px;
+  height: 55px;
+}
+
+.fish-option-card {
+  opacity: 0.50;
+  position: absolute;
+  z-index: 0;
+  width: 285px;
+  height: 85px
+}
